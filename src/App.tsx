@@ -6,7 +6,7 @@ function App() {
     const [count,setCount]= useState(0)
     function Increase(){
       // setCount(count+1)
-      // setCount(count+1)
+
       //prev always refer to the previous value of the state
       setCount((prev)=>prev+1)
       setCount((prev)=>prev+1)
