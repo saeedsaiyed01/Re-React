@@ -2,7 +2,7 @@ import { RecoilRoot, atom, useRecoilValue, useSetRecoilState } from 'recoil';
 
 const count = atom({
   key: 'countState', // unique ID (with respect to other atoms/selectors)
-  default: 0, // default value (aka initial value)
+  default: 0, 
 });
 
 function Parent() {
